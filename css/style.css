@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    height: 60px;
+    background-color: aqua;
+}
+
+.footer{
+    height: 30px;
+    background-color: blue;
+}
+
+.nav-left{
+    color: white
+ 
+}
+
+.nav-right{
+    
+}
