@@ -1,31 +1,146 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.navigation{
-    height: 50px;
-    background-color: black;
+
+.navigation {
+    height: 75px;
+    margin-top: 25px;;
+    /* background-color: pink; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font-1);
 }
 
-.content{
-    height: 60px;
-    background-color: aqua;
+.nav-left {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+
 }
 
-.footer{
-    height: 30px;
-    background-color: blue;
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    font-size: 15px;
 }
 
-.nav-left{
-    color: white
- 
+.nav-left ul li {
+    list-style: none;
+    font-family: var(--font-2);
+    margin: 0 14px
 }
 
-.nav-right{
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.nav-left ul li a:hover {
+    color: white;
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content {
+    height: 400px;
+    /* background-color: rgb(145, 247, 247); */
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 25px;
+    /* color: white; */
+    position: relative;
     
+}
+
+.content::after{
+    content: "";
+    background-image: url('../image/11.svg');
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    opacity: 0.15;
+
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 206px;
+    width: 300px;
+}
+
+.home-articles {
+    padding: 18px;
+    background-color: rgb(255, 240, 242, 0.4);
+    margin-top: 25px;;
+   
+
+}
+
+.home-article {
+    display: flex;
+    margin: 10px;
+}
+
+.home-article img {
+    width: 320px;
+    margin: 25px;
+}
+
+.home-article-img {
+    display: flex;
+    align-items: center;
+    height: auto;
+    
+}
+
+.home-article-content{
+    align-self: center;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+    
+}
+.home-article-content a :hover{
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+
+}
+
+.footer a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
 }
