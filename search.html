@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/mobile.js" defer></script>
     <title> Drama And Movies - Blog</title>
 </head>
 
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <span>MoView</span>
-            <ul>
+            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
+                        alt=""></a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blogpost.html">Blog</a></li>
                 <li><a href="#">About Us</a></li>
@@ -21,11 +30,12 @@
             </ul>
 
 
+
         </div>
         <div class="nav-right">
             <form action="/search.html" method="get">
-                <input type="search" placeholder="Search here" class="form-input" id="search" name="search">
-                <button class="btn">Search</button>
+                <input type="search" placeholder="Search here" class="form-input" id="search" name="search" >
+                <button class="btn" title="Click to search">Search</button>
             </form>
 
 

@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/mobile.js" defer></script>
     <title> Drama And Movies - Blog</title>
 </head>
 
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <span>MoView</span>
-            <ul>
+            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
+                        alt=""></a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blogpost.html">Blog</a></li>
                 <li><a href="#">About Us</a></li>
@@ -26,7 +35,7 @@
         <div class="nav-right">
             <form action="/search.html" method="get">
                 <input type="search" placeholder="Search here" class="form-input" id="search" name="search">
-                <button class="btn">Search</button>
+                <button class="btn" title="Click to search">Search</button>
             </form>
 
         </div>
@@ -37,7 +46,7 @@
     </div>
     <div class="contact-content max-width-1 m-auto font2">
         <div class="max-width-1 m-x1 m-auto">
-            <h2>Contact Us!</h2>
+            <h1>Contact Us!</h1>
             <div class="contact-form">
                 <div class="form-box">
                     <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="on">
@@ -49,7 +58,7 @@
                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="How can we help you?"></textarea>
                 </div>
                 <div class="form-box"> 
-                    <button type="button" class="btn">Submit</button></div>
+                    <button type="button" class="btn" title="Click to Submit">Submit</button></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,86 @@
+@media screen and (max-width:1400px) {
+    .navigation {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-left {
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* .nav-left ul {
+        padding-left: 65px;
+    } */
+
+    .logo a img {
+        height: 50%;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .content-right {
+        display: none;
+    }
+
+    .home-article {
+        display: flex;
+        text-align: justify;
+    }
+
+
+    .home-article-img {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        align-content: space-around;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 912px) {
+
+    .home-article {
+        text-align: justify;
+        display: flex;
+        margin: 15px 50px;
+        flex-direction: column;
+    }
+
+    .home-article-content {
+        text-align: justify;
+
+    }
+
+    .home-article-content a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    .nav-menu {
+        display: none; /* Hide by default on smaller screens */
+        flex-direction: column;
+        background-color: var(--main-bg-color);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .nav-menu.show {
+        display: flex; /* Show when .show class is added */
+    }
+
+    .nav-toggle {
+        display: block; /* Show hamburger icon */
+    }
+
+}
