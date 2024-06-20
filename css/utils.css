@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --main-bg-color: #af0c8b;
     --main-bg-color1: #FAF6F1;
-    --font-1:'Roboto', sans-serif;
-    --font-2:'Alegreya', cursive;
+    --font-1: 'Roboto', sans-serif;
+    --font-2: 'Alegreya', cursive;
 }
 
-.font1{
+.font1 {
     font-family: var(--font-1);
 }
 
-.font2{
+.font2 {
     font-family: var(--font-2);
 }
 
-h2{
-    text-align: center;;
+h2 {
+    text-align: center;
+    ;
 }
+
 .max-width-1 {
     max-width: 80vw;
 }
@@ -30,7 +33,7 @@ h2{
     margin: auto;
 }
 
-.m-x1{
+.m-x1 {
     margin-left: 21vw;
 }
 
@@ -41,13 +44,16 @@ h2{
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    border: 1px solid #5faad4;;
-    transition:all 0.3s ease-in-out;
+    border: 1px solid #5faad4;
+    ;
+    transition: all 0.3s ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     color: white;
     background-color: var(--main-bg-color);
 }
+
 .form-input {
     padding: 7px 14px;
     border: 2px solid black;
@@ -56,11 +62,14 @@ h2{
     font-family: var(--font-2);
     font-size: 16px;
 }
-.form-input:hover{
+
+.form-input:hover {
     border: 3px solid;
-    border-color:  var(--main-bg-color);
+    border-color: var(--main-bg-color);
 }
-.form-box input, textarea{
+
+.form-box input,
+textarea {
     padding: 3px;
     width: 40vw;
     margin: 6px;
@@ -69,16 +78,19 @@ h2{
     border-radius: 10px;
     border: 2px solid black;
 }
-.form-box input:hover{
+
+.form-box input:hover {
     border: 3px solid var(--main-bg-color);
-    
+
 }
-.form-box textarea:hover{
-    border: 3px solid var(--main-bg-color);   
+
+.form-box textarea:hover {
+    border: 3px solid var(--main-bg-color);
 }
 
 .nav-toggle {
-    display: none; /* Hide by default on larger screens */
+    display: none;
+    /* Hide by default on larger screens */
     cursor: pointer;
 }
 
@@ -109,6 +121,7 @@ h2{
     text-decoration: none;
     padding: 10px;
 }
+
 /* .row {
     display: flex;
     flex-wrap: wrap;
@@ -126,6 +139,26 @@ h2{
     align-items: center;
 }
 
-body{
+.go-top-btn {
+    position: fixed;
+    bottom: 36px;
+    right: 2px;
+    border-radius: 50%;
+    border: 1.5px solid #333;
+    display: none;
+    cursor: pointer;
+    background-color: var(--main-bg-color1); 
+    
+}
+.go-top-btn:hover {
+    border: 3px solid var(--main-bg-color);   
+}
+
+.go-top-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+body {
     background-color: var(--main-bg-color1);
 }

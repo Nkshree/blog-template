@@ -55,6 +55,9 @@
         flex-direction: column;
     }
 
+    .home-article img {
+        width: 100%;
+    }
     .home-article-content {
         text-align: justify;
 

@@ -18,6 +18,7 @@
 .blog-content p{
     font-size: 18px;;
     margin-inline: 20px;
+    text-align: justify;
 }
 
 .foot-note{

@@ -122,7 +122,7 @@
 }
 
 .home-article img {
-    width: 100%;
+    width: 25vw;
 }
 
 .home-article-content{
@@ -138,6 +138,10 @@
     font-weight: bolder;
     cursor: pointer;
     
+}
+
+.home-article-content p{
+    text-align: justify;
 }
 
 .footer {
