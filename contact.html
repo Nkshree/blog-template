@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/mobile.css">
+
     <script src="js/mobile.js" defer></script>
     <title> Drama And Movies - Blog</title>
 </head>
@@ -15,35 +16,35 @@
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
-                        alt=""></a>
-            </div>
+
             <div class="nav-toggle" id="navToggle">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
+            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
+                        alt=""></a>
+            </div>
+
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blogpost.html">Blog</a></li>
-                <li><a href="#">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="nav-right">
+                        <form action="/search.html">
+                            <input type="search" placeholder="Search here" class="form-input" id="search" name="search">
+                            <button class="btn" title="Click to search">Search</button>
+                        </form>
+                    </div>
+                </li>
             </ul>
-
-
         </div>
-        <div class="nav-right">
-            <form action="/search.html" method="get">
-                <input type="search" placeholder="Search here" class="form-input" id="search" name="search">
-                <button class="btn" title="Click to search">Search</button>
-            </form>
-
-        </div>
-
     </nav>
-    <div class="max-width-1 m-auto">
-        <hr>
-    </div>
+    <button class="go-top-btn">
+        <img src="image/arrow-up.png" alt="arrow up">
+    </button>
+
     <div class="contact-content max-width-1 m-auto font2">
         <div class="max-width-1 m-x1 m-auto">
             <h1>Contact Us!</h1>
@@ -51,20 +52,27 @@
                 <div class="form-box">
                     <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="on">
                 </div>
-                <div class="form-box"> 
+                <div class="form-box">
                     <input type="email" name="email" id="email" placeholder="Enter your Email-Id" autocomplete="on">
                 </div>
-                <div class="form-box"> 
-                   <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+                <div class="form-box">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="How can we help you?"></textarea>
                 </div>
-                <div class="form-box"> 
-                    <button type="button" class="btn" title="Click to Submit">Submit</button></div>
+                <div class="form-box">
+                    <button type="button" class="btn" title="Click to Submit">Submit</button>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="footer">
-        Copyright &copy; MoView <a href="https://www.vecteezy.com/free-vector/movie">Graphic credits - Vecteezy</a>
+        Copyright &copy; MoView
+        <div class="credits">
+            <a href="https://www.vecteezy.com/free-vector/movie" ,href=>Graphic credits - Vecteezy</a>
+            <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Icon credits -
+                Flaticon</a>
+        </div>
     </div>
 
 </body>

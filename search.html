@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
+
     <script src="js/mobile.js" defer></script>
     <title> Drama And Movies - Blog</title>
 </head>
@@ -14,44 +15,42 @@
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="nav-left">
-            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
-                        alt=""></a>
-            </div>
+
             <div class="nav-toggle" id="navToggle">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
+            <div class="logo"><a href="/"><img src="image/WhatsApp_Image_2024-06-19_at_6.24.19_PM-removebg-preview.png"
+                        alt=""></a>
+            </div>
+
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blogpost.html">Blog</a></li>
-                <li><a href="#">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="nav-right">
+                        <form action="/search.html">
+                            <input type="search" placeholder="Search here" class="form-input" id="search" name="search">
+                            <button class="btn" title="Click to search">Search</button>
+                        </form>
+                    </div>
+                </li>
             </ul>
-
-
-
         </div>
-        <div class="nav-right">
-            <form action="/search.html" method="get">
-                <input type="search" placeholder="Search here" class="form-input" id="search" name="search" >
-                <button class="btn" title="Click to search">Search</button>
-            </form>
-
-
-        </div>
-
     </nav>
-    <div class="max-width-1 m-auto">
-        <hr>
-    </div>
+    <button class="go-top-btn">
+        <img src="image/arrow-up.png" alt="arrow up">
+    </button>
+
     <div class="home-articles max-width-1 m-auto font2">
         <h2>Search Results</h2>
         <div class="container" id="myDi">
             <div class="row">
                 <div class="home-article">
                     <div class="home-article-img">
-                        <img src="image/11.svg" alt="article">
+                        <img src="image/1.png" alt="article">
                     </div>
                     <div class="home-article-content font2">
                         <a href="/blogpost.html">
@@ -85,7 +84,7 @@
                 </div>
                 <div class="home-article">
                     <div class="home-article-img">
-                        <img src="image/11.svg" alt="article">
+                        <img src="image/2.png" alt="article">
                     </div>
 
                     <div class="home-article-content font2">
@@ -106,7 +105,7 @@
             <div class="row">
                 <div class="home-article">
                     <div class="home-article-img">
-                        <img src="image/11.svg" alt="article">
+                        <img src="image/3.png" alt="article">
                     </div>
                     <div class="home-article-content font2">
                         <a href="/blogpost.html">
@@ -123,7 +122,7 @@
                 </div>
                 <div class="home-article">
                     <div class="home-article-img">
-                        <img src="image/11.svg" alt="article">
+                        <img src="image/4.png" alt="article">
                     </div>
 
                     <div class="home-article-content font2">
@@ -140,7 +139,7 @@
                 </div>
                 <div class="home-article">
                     <div class="home-article-img">
-                        <img src="image/11.svg" alt="article">
+                        <img src="image/2.png" alt="article">
                     </div>
 
                     <div class="home-article-content font2">
@@ -160,7 +159,12 @@
 
     </div>
     <div class="footer">
-        Copyright &copy; MoView <a href="https://www.vecteezy.com/free-vector/movie">Graphic credits - Vecteezy</a>
+        Copyright &copy; MoView
+        <div class="credits">
+            <a href="https://www.vecteezy.com/free-vector/movie" ,href=>Graphic credits - Vecteezy</a>
+            <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Icon credits -
+                Flaticon</a>
+        </div>
     </div>
 
 </body>
